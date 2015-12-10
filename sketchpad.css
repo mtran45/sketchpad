@@ -9,7 +9,7 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   font-family: Arial, sans-serif;
-  background-color: #ffffcc;
+  background-color: #ffffe5;
 }
 
 #wrapper {
@@ -52,4 +52,8 @@ button:hover {
   margin: -1px;
   display: inline-block;
   background-color: white;
+}
+
+.painted {
+  background-color: black;
 }

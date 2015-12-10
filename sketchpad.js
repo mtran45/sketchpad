@@ -4,10 +4,10 @@ $(document).ready(function() {
   generate_grid();
   var $boxes = $(".box");
   $boxes.mouseenter(function() {
-    $(this).css("background-color","black");
+    $(this).addClass("painted");
   });
-  $boxes.mouseleave(function() {
-    
+  $("button#clear").click(function() {
+    $boxes.removeClass("painted");
   });
 });
 
