@@ -48,8 +48,7 @@ button:hover {
 }
 
 .box {
-  border: 1px dotted lightgray;
-  margin: -1px;
+  outline: 1px dotted lightgray;
   display: inline-block;
   background-color: white;
 }
