@@ -7,7 +7,9 @@ html {
 
 body {
   padding-top: 30px;
+  padding-bottom: 30px;
   font-family: Arial, sans-serif;
+  background-color: #ffffcc;
 }
 
 #wrapper {
@@ -22,13 +24,32 @@ h1#title {
   padding: 5px 0;
 }
 
+#btn-container {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: #3d3d3d;
+  margin: 0 5px;
+}
+
+button:hover {
+  color: black;
+  background-color: #EAEAEA;
+}
+
 #sketch-container {
   border: 2px solid blue;
   width: 100%;
 }
 
 .box {
-  border: 1px solid black;
+  border: 1px dotted lightgray;
   margin: -1px;
   display: inline-block;
+  background-color: white;
 }
